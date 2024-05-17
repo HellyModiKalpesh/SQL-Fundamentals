@@ -4,7 +4,7 @@
 -- These events can include INSERT, UPDATE, DELETE operations, or a combination of them
 -- Types of Triggers: MySQL supports BEFORE and AFTER triggers, which execute before or after the triggering event, respectively.
 
-# let's create a triggere when any new entry is added in employeement_salary table then it should automatically added in employeement_demographic table
+# let's create a trigger when any new entry is added in employeement_salary table then it should automatically added in employeement_demographic table
 
 delimiter $$
 create trigger employee_insert
