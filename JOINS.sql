@@ -48,3 +48,7 @@ select * from employeement_demographic as emp1 inner join employeement_salary as
 inner join perks_department as per
 	on sal.dept_id=per.department_id;
 
+-- cross join
+-- SQL CROSS JOIN returns all the records from the left and right tables.
+-- CROSS JOIN returns a combination of each row in the left table paired with each row in the right table.
+SELECT * FROM table1 CROSS JOIN table2;

@@ -4,6 +4,13 @@
 -- DATE_ADD('2024-05-19', INTERVAL 1 DAY);
 -- so here it will add 1 day to the date 
 
+-- here if we want to find the difference then
+-- datediff('2019-07-27',activity_date)<30 
+-- here it will find the diffrence between current date and the given date and checked if that difference is less than 30 days.
+-- in other words it will  find the dates within period of 30 days ending 2019-07-27 
+
+
+
 -- then to find the average by difference and round it upto 3 digit
 -- round(avg(a1.timestamp-a2.timestamp),3)
 
